@@ -1,0 +1,100 @@
+<div class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-6 md:p-12 lg:p-20">
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+    <!-- Left Content -->
+    <div class="text-center md:text-left max-w-2xl transition-all duration-500 ease-in-out transform hover:-translate-y-1">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 animate-fadeIn select-none">
+        Hello, my name is 
+        <span class="text-red-500 font-signature animate-pulse">Prashant Kumar</span>
+      </h1>
+
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-800 mb-6 select-none">
+        I'm a <span class="text-red-500 typewriter">{{typedText}}</span><span class="blinking-cursor">|</span>
+      </h2>
+
+      <p class="text-lg text-gray-700 mb-8 leading-relaxed select-none">
+  I'm a <span class="font-medium text-gray-900">Software Engineer</span> with <span class="text-red-500 font-medium">strong hands-on skills</span>.
+  My expertise includes building scalable systems, writing clean code, and solving real-world engineering challenges.
+</p>
+
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <button class="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 cursor-pointer"
+        
+        routerLink="/about"
+        >
+          More About Me
+        </button>
+       <a href="Prashant_Kumar_cv.pdf" download class="select-auto">
+        <button
+          class="border-2 border-gray-300 hover:border-red-500 text-gray-800 hover:text-red-600 px-8 py-3 rounded-full shadow hover:shadow-md transition-all duration-300 cursor-pointer"
+        >
+          Download CV
+        </button>
+      </a>
+
+      </div>
+
+      <!-- Social Icons -->
+      <div class="flex justify-center md:justify-start gap-4 mt-8">
+        <a href="#" class="text-gray-600 hover:text-red-500 transition-colors duration-300 transform hover:-translate-y-1">
+          <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-red-500 transition-colors duration-300 transform hover:-translate-y-1">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-red-500 transition-colors duration-300 transform hover:-translate-y-1">
+          <i class="fab fa-dribbble text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-600 hover:text-red-500 transition-colors duration-300 transform hover:-translate-y-1">
+          <i class="fab fa-behance text-xl"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Image -->
+    <div class="relative w-full max-w-md mt-10 md:mt-0 group">
+      <div class="relative overflow-hidden rounded-xl shadow-2xl transform transition-all duration-700 group-hover:shadow-3xl">
+        <img src="pk.jpg" 
+             alt="Prashant Kumar - Web Designer"
+             class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" />
+        
+        <!-- Decorative frame elements -->
+        <div class="absolute top-0 left-0 w-8 h-8 border-t-4 border-l-4 border-red-500 transition-all duration-500 group-hover:w-12 group-hover:h-12"></div>
+        <div class="absolute top-0 right-0 w-8 h-8 border-t-4 border-r-4 border-red-500 transition-all duration-500 group-hover:w-12 group-hover:h-12"></div>
+        <div class="absolute bottom-0 left-0 w-8 h-8 border-b-4 border-l-4 border-red-500 transition-all duration-500 group-hover:w-12 group-hover:h-12"></div>
+        <div class="absolute bottom-0 right-0 w-8 h-8 border-b-4 border-r-4 border-red-500 transition-all duration-500 group-hover:w-12 group-hover:h-12"></div>
+        
+        <!-- Floating badge -->
+        <div class="absolute -bottom-5 -right-5 bg-red-500 text-white px-6 py-5 rounded-full shadow-lg transform rotate-6 group-hover:rotate-0 transition-transform duration-500">
+          <span class="font-bold">1+ Years</span> Experience
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add this to your styles.css or component CSS -->
+<style>
+  .font-signature {
+    font-family: 'Dancing Script', cursive, sans-serif;
+  }
+  
+  .typewriter {
+    border-right: 3px solid red;
+    animation: blinkTextCursor 0.7s infinite;
+  }
+  
+  @keyframes blinkTextCursor {
+    from {border-right-color: red;}
+    to {border-right-color: transparent;}
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>

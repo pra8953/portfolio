@@ -1,0 +1,13 @@
+<div class="flex min-h-screen">
+  <!-- Fixed Sidebar -->
+  <div class="w-64 h-screen fixed top-0 left-0 bg-white shadow-md z-50">
+    <app-sidebar></app-sidebar>
+  </div>
+
+  <!-- Scrollable Main Content with left margin -->
+  <div class="flex-1 ml-64">
+    <div class="relative">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
