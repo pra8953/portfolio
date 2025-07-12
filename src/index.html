@@ -2,30 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Prashant Kumar | Portfolio - [Your Profession/Title]</title>
+  <title>Prashant Kumar | Portfolio - Software Developer</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <!-- Primary Meta Tags -->
-  <meta name="title" content="Prashant Kumar | Portfolio -Software Development">
-  <meta name="description" content="Professional portfolio of Prashant Kumar showcasing skills in Software Engineering, projects, and work experience. HRM,CRM,Erp and real life problem solve">
-  <meta name="keywords" content="Prashant Kumar, portfolio,freelance,web developer, java ,python, delhiIndia, web developer, designer">
+  <meta name="title" content="Prashant Kumar | Portfolio - Software Development">
+  <meta name="description" content="Professional portfolio of Prashant Kumar showcasing skills in Software Engineering, projects, and work experience. HRM, CRM, ERP and real life problem solver">
+  <meta name="keywords" content="Prashant Kumar, portfolio, freelance, web developer, java, python, delhi, India, web developer, designer">
   <meta name="author" content="Prashant Kumar">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph / Facebook (for social sharing) -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://prashant-one.vercel.app/">
-  <meta property="og:title" content="Prashant Kumar | Portfolio - [Your Profession/Title]">
-  <meta property="og:description" content="Professional portfolio of Prashant Kumar showcasing skills in [your skills], projects, and work experience.">
+  <meta property="og:title" content="Prashant Kumar | Portfolio - Software Developer">
+  <meta property="og:description" content="Professional portfolio of Prashant Kumar showcasing skills in Software Engineering, projects, and work experience.">
   <meta property="og:image" content="https://prashant-one.vercel.app/pk.jpg">
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://yourportfolio.com/">
-  <meta property="twitter:title" content="Prashant Kumar | Portfolio - [Your Profession/Title]">
-  <meta property="twitter:description" content="Professional portfolio of Prashant Kumar showcasing skills in [your skills], projects, and work experience.">
-  <meta property="twitter:image" content="https://yourportfolio.com/assets/images/social-preview.jpg">
+  <meta property="twitter:url" content="https://prashant-one.vercel.app/">
+  <meta property="twitter:title" content="Prashant Kumar | Portfolio - Software Developer">
+  <meta property="twitter:description" content="Professional portfolio of Prashant Kumar showcasing skills in Software Engineering, projects, and work experience.">
+  <meta property="twitter:image" content="https://prashant-one.vercel.app/pk.jpg">
   
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -48,26 +50,67 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Prashant Kumar",
-    "url": "https://yourportfolio.com",
+    "url": "https://prashant-one.vercel.app",
     "sameAs": [
       "https://linkedin.com/in/yourprofile",
       "https://github.com/yourusername",
       "https://twitter.com/yourhandle"
     ],
-    "jobTitle": "[Your Profession/Title]",
+    "jobTitle": "Software Developer",
     "worksFor": {
       "@type": "Organization",
-      "name": "[Current Company]"
+      "name": "Freelance"
     },
-    "description": "Professional [your profession] with expertise in [your skills]",
+    "description": "Professional Software Developer with expertise in Web Development, HRM, CRM and ERP systems",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "[Your City]",
-      "addressRegion": "[Your State]",
+      "addressLocality": "New Delhi",
+      "addressRegion": "Delhi",
       "addressCountry": "India"
     }
   }
   </script>
+  
+  <style>
+    .animate-fadeIn {
+      animation: fadeIn 1s ease-out forwards;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Animation for skill bars */
+    div[data-width] {
+      width: 0;
+      animation: fillWidth 1.5s ease-out forwards;
+      animation-delay: 0.3s;
+    }
+    
+    @keyframes fillWidth {
+      to { width: var(--width); }
+    }
+    
+    /* Timeline car animation */
+    .timeline-car {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+      transition: all 0.5s ease-out;
+      z-index: 10;
+    }
+    
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    
+    .bounce-animation {
+      animation: bounce 1s infinite;
+    }
+  </style>
 </head>
 <body>
   <app-root></app-root>
