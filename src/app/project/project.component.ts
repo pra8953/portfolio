@@ -29,49 +29,60 @@ export class ProjectsComponent implements OnInit, AfterViewInit {
 
   projects = [
     {
-      id: 1,
-      name: 'E-Commerce Platform',
-      description: 'Complete online store solution with payment processing, inventory management, and analytics dashboard.',
-      githubLink: 'https://github.com/username/ecommerce-platform',
-      liveLink: 'https://ecommerce.example.com',
-      techStack: ['Angular', 'Node.js', 'MongoDB', 'Stripe API'],
-      featured: true,
-      year: '2023',
-      imageUrl: 'assets/images/ecommerce.jpg'
-    },
-    {
-      id: 2,
-      name: 'Task Management App',
-      description: 'Team collaboration tool with real-time updates, task assignments, and progress tracking.',
-      githubLink: 'https://github.com/username/task-manager',
-      liveLink: 'https://tasks.example.com',
-      techStack: ['React', 'Firebase', 'Tailwind CSS'],
-      featured: false,
-      year: '2023',
-      imageUrl: 'assets/images/task-manager.jpg'
-    },
-    {
-      id: 3,
-      name: 'Weather Dashboard',
-      description: 'Real-time weather forecasting with interactive maps and 5-day predictions.',
-      githubLink: 'https://github.com/username/weather-dashboard',
-      liveLink: null,
-      techStack: ['Vue.js', 'OpenWeather API', 'Chart.js'],
-      featured: false,
-      year: '2022',
-      imageUrl: 'assets/images/weather.jpg'
-    },
-    {
-      id: 4,
-      name: 'Portfolio Website',
-      description: 'Modern portfolio showcasing skills, projects, and professional experience.',
-      githubLink: 'https://github.com/username/portfolio',
-      liveLink: 'https://portfolio.example.com',
-      techStack: ['Angular', 'Tailwind CSS', 'GSAP'],
-      featured: true,
-      year: '2023',
-      imageUrl: 'assets/images/portfolio.jpg'
-    },
+    id: 1,
+    name: 'Real-Time Cloud IDE',
+    description: 'A cloud-based real-time collaborative IDE built with MEAN stack. Supports live coding, collaboration, and cloud execution.',
+    githubLink: 'https://github.com/pra8953/-Real-Time_Collaborative_CloUd_IDE.git',
+    liveLink: null,
+    techStack: ['MongoDB', 'Express.js', 'Angular', 'Node.js', 'WebSockets'],
+    featured: true,
+    year: '2025',
+    imageUrl: 'real.png'
+  },
+  {
+    id: 2,
+    name: 'sngh.in - Agritech Farming Management System',
+    description: 'MERN-based Agritech platform for farm management, crop monitoring, and analytics dashboards.',
+    githubLink: 'https://github.com/eduassists/shree_narayan_website.git',
+    liveLink: 'https://sngh.in',
+    techStack: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+    featured: true,
+    year: '2025',
+    imageUrl: 'sngh.png'
+  },
+  {
+    id: 3,
+    name: 'MyEduAssist ERP System',
+    description: 'MEAN-based ERP system for educational institutions, managing students, teachers, courses, and reports.',
+    githubLink: 'https://github.com/eduassists/production_client_side.git',
+    liveLink: 'https://myeduassist.xyz/',
+    techStack: ['MongoDB', 'Express.js', 'Angular', 'Node.js'],
+    featured: true,
+    year: '2025',
+    imageUrl: 'edu.png'
+  },
+  {
+    id: 4,
+    name: 'Ramanujan College ERP',
+    description: 'Laravel-based ERP system for managing college operations, attendance, timetable, and student data.',
+    githubLink: 'https://github.com/vaibhav-manacle/college_dev.git',
+    liveLink: 'https://erp.ramanujancollege.ac.in',
+    techStack: ['Laravel', 'MySQL', 'Bootstrap', 'jQuery'],
+    featured: false,
+    year: '2023',
+    imageUrl: 'erp.png'
+  },
+  {
+    id: 5,
+    name: 'Chatting App with Real-Time Video Calling',
+    description: 'A real-time chatting application with text messaging and live video call functionality.',
+    githubLink: 'https://github.com/pra8953/chat_app.git',
+    liveLink: null,
+    techStack: ['React', 'Node.js', 'Socket.io', 'WebRTC'],
+    featured: false,
+    year: '2024',
+    imageUrl: 'image.png'
+  },
     // Add more projects as needed
   ];
 

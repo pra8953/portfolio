@@ -30,25 +30,35 @@ export class AboutComponent {
 
   experience = [
     {
-      year: '04/2025 – Present',
-      title: 'Full Stack Developer',
-      description: `Working as a Full Stack Developer on MERN-based HRMS, ERP, and educational systems. Developed scalable modules for employee management, attendance, payroll, and dashboards. Implemented secure authentication, role-based access, RESTful APIs, and responsive UIs while collaborating with clients on real-world deployments.`,
-    },
-    {
-      year: '01/2024 – 03/2024',
-      title: 'Full Stack Developer',
-      description: `Built a Laravel-based educational platform at Ramanujan College (Kalkaji, Delhi). Used Laravel, MySQL, Bootstrap, jQuery, and Ajax to develop features like user login, study materials, previous year questions (PYQs), and online test systems.`,
-    },
-    {
-      year: '11/2023 – 12/2023',
-      title: 'React Developer',
-      description: `Worked with Lock Uthaan Pahal Foundation on an NGO project. Developed a React-based website (SAMIP) to offer secure UI and smooth navigation for home services.`,
-    },
-    {
-      year: '2023 – 09/2023',
-      title: 'Junior Software Engineer',
-      description: `Contributed to college ERP modules at APC – Ramanujan College, Delhi. Built and optimized web features like Attendance and Timetable using Laravel, Bootstrap, and MySQL, focusing on user-friendly and scalable academic solutions.`,
-    },
+    year: '06/2025 – Present',
+    title: 'Full Stack Developer (Real-time Cloud IDE)',
+    description: `Working on a real-time cloud-based IDE platform using the MEAN stack. Implemented live code editor, real-time collaboration, cloud execution, authentication, and role-based access. Focused on scalability, performance, and seamless developer experience.`,
+  },
+  {
+    year: '05/2025 – Present',
+    title: 'Full Stack Developer (sngh.in)',
+    description: `Developed sngh.in, a MERN-based Agritech web application. Built modules for farm management, crop monitoring, and analytics dashboards. Implemented secure authentication, RESTful APIs, responsive UI, and collaborated with agritech clients for real-world deployment.`,
+  },
+  {
+    year: '04/2025 – Present',
+    title: 'Full Stack Developer',
+    description: `Working as a Full Stack Developer on MERN-based HRMS, ERP, and educational systems. Developed scalable modules for employee management, attendance, payroll, and dashboards. Implemented secure authentication, role-based access, RESTful APIs, and responsive UIs while collaborating with clients on real-world deployments.`,
+  },
+  {
+    year: '01/2024 – 03/2024',
+    title: 'Full Stack Developer',
+    description: `Built a Laravel-based educational platform at Ramanujan College (Kalkaji, Delhi). Used Laravel, MySQL, Bootstrap, jQuery, and Ajax to develop features like user login, study materials, previous year questions (PYQs), and online test systems.`,
+  },
+  {
+    year: '11/2023 – 12/2023',
+    title: 'React Developer',
+    description: `Worked with Lock Uthaan Pahal Foundation on an NGO project. Developed a React-based website (SAMIP) to offer secure UI and smooth navigation for home services.`,
+  },
+  {
+    year: '2023 – 09/2023',
+    title: 'Junior Software Engineer',
+    description: `Contributed to college ERP modules at APC – Ramanujan College, Delhi. Built and optimized web features like Attendance and Timetable using Laravel, Bootstrap, and MySQL, focusing on user-friendly and scalable academic solutions.`,
+  },
   ];
 
   carPosition = 0;

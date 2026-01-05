@@ -55,12 +55,11 @@
         
         <!-- Lazy Loaded Image with Gradient Overlay -->
         <div class="h-48 relative overflow-hidden">
-          <img [attr.data-src]="project.imageUrl || ''" 
-               [alt]="project.name"
-               class="lazy-image absolute inset-0 w-full h-full object-cover"
-               (load)="onImageLoad($event)"
-               [class.hidden]="!imageLoaded[project.id]">
-          <div *ngIf="!imageLoaded[project.id]" class="absolute inset-0 bg-gray-200 animate-pulse"></div>
+          <img [src]="project.imageUrl" 
+     [alt]="project.name"
+     class="absolute inset-0 w-full h-full object-cover">
+
+          <!-- <div *ngIf="!imageLoaded[project.id]" class="absolute inset-0 bg-gray-200 animate-pulse"></div> -->
           <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
           <div class="absolute top-4 right-4">
             <span *ngIf="project.featured" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r from-red-500 to-red-600 text-white shadow-md">
